@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float a,b;
+    cout<<"Enter the 1st number:";
+	cin>>a;
+	cout<<"Enter the 2d number:";
+	cin>>b;
+	char ch;
+	cout<<"Enter the 1st number:";
+	cin>>ch;
+	
+	switch(ch){
+		case '+':
+			cout<<a+b;
+			break;
+			
+		case '-':
+			cout<<a-b;
+			break;
+		case '*':
+			cout<<a*b;
+			break;
+		case '/':
+			cout<<a/b;
+			break;
+		default :
+				
+		cout<<"INVALID";
+	}
+	return 0;
+}
