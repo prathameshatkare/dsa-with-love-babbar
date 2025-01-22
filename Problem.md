@@ -12,3 +12,4 @@ Given an integer number `n`, return the difference between the product of its di
 ### Description:
 Write a function that takes an unsigned integer and returns the number of `1` bits it has (also known as the Hamming weight).
 
+problem 3:https://leetcode.com/problems/find-pivot-index/description/
